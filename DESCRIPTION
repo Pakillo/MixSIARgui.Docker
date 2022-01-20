@@ -10,8 +10,7 @@ Authors@R: c(
 Description: Compendium description
 License: MIT + file LICENSE
 Depends: 
-    MixSIARgui,
-    rjags
+    MixSIARgui
 Remotes: brianstock/MixSIARgui
 SystemRequirements: JAGS (>= 4.3) and GTK+
 Encoding: UTF-8
