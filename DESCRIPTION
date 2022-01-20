@@ -1,0 +1,15 @@
+Type: Compendium
+Package: MixSIARgui.Docker
+Title: Run MixSIARgui in a Docker container.
+Version: 0.0.1
+Authors@R: c(
+    person(given = "Francisco", family = "Rodriguez-Sanchez", 
+      email = "f.rodriguez.sanc@gmail.com", role = c("aut", "cre"), 
+      comment = c(ORCID = "0000-0002-7981-1599"))
+    )
+Description: Compendium description
+License: MIT + file LICENSE
+Depends: 
+    MixSIARgui
+Encoding: UTF-8
+LazyData: true
