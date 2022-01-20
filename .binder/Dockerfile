@@ -9,6 +9,7 @@ USER ${NB_USER}
 RUN apt-get update && apt-get install -y --no-install-recommends \
         jags \
         libgtk2.0-dev \
+    rm -rf /var/lib/apt/lists/*
 
 RUN wget https://github.com/Pakillo/MixSIARgui.Docker/raw/main/DESCRIPTION && R -e "options(repos = list(CRAN = 'http://mran.revolutionanalytics.com/snapshot/2020-02-29/')); devtools::install_deps()"
 
