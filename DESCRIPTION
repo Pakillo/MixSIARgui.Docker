@@ -10,7 +10,8 @@ Authors@R: c(
 Description: Compendium description
 License: MIT + file LICENSE
 Depends: 
-    MixSIARgui
+    MixSIARgui,
+    rjags
 Remotes: brianstock/MixSIARgui
 Encoding: UTF-8
 LazyData: true
