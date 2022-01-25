@@ -1,3 +1,2 @@
 jags
-r-cran-rjags
 libgtk2.0-dev
