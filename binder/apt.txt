@@ -1,2 +1,4 @@
 jags
+r-cran-rjags
+r-cran-coda
 libgtk2.0-dev
